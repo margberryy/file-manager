@@ -1,4 +1,5 @@
 import fs from "fs";
+import crypto from "crypto";
 
 async function getHash(sourceFilePath) {
   return new Promise((resolve, reject) => {
